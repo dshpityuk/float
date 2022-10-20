@@ -1,81 +1,156 @@
-.box {
-    background-color: yellow;
-    width: 200px;
-    height: 300px;
-
-    padding: 20px;
-    margin: 20px;
-    /* padding: 20px; Внутренний отступ */
-    /* padding: 10px 20px 30px 40px; */
-    /* padding: 20px 30px; */
-    /* padding: 10px 50px 100px; */
-    /* padding: 0 0 20px 30px; */
-
-    /* margin: 20px 30px 40px 50px; */
-    /* margin: 10px 20px 30px 40px; */
-    /* margin: 10px 50px 100px 100px; */
-    /* margin: 0 0 20px 30px; */
-
-    /* border: 3px solid blue; */
-    border-right: 5px solid green;
-    border-bottom: 10px dotted blue;
-    border-left: 15px dashed #000;
-    border-top: 20px double violet;
-
-    /* border-top-width: 20px;
-    border-top-style: double;
-    border-top-color: orange; */
+* {
+    font-family: 'Tahoma', sans-serif;
+    font-style: normal;
+    box-sizing: border-box;
+    margin: 0;
 }
 
-.box2 {
-    width: 200px;
-    height: 200px;
-    background-color: green;
-    border: 5px solid black;
-    padding: 10px;
-    margin: 20px;
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
 }
 
-.box3 {
-    background-color: red;
-    margin-bottom: 20px;
+.container {
+    width: 1110px;
+    margin: 0 auto;
 }
 
-.box4 {
-    background-color: blue;
-    margin-top: 40px;
+.header {
+    padding-top: 70px;
+    padding-bottom: 71px;
+    background-color: #EEEFF1;
 }
 
-.parent {
-    background-color: red;
-    /* padding-top: 1px; */
-    /* border: 1px solid transparent; */
+.logo {
+    float: left;
 }
 
-.child {
+.menu {
+    float: right;
+}
+
+.menu a {
+    margin-left: 40px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    color: #000000;
+    text-decoration: none;
+}
+
+.main {
+    margin-top: 76px;
+    margin-bottom: 146px;
+}
+
+.main_left {
+    float: left;
+    width: 568px;
+}
+
+.main_img {
+    margin-top: 22px;
+}
+
+.main_title {
+    margin: 0;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+    color: #000000;
+}
+
+.main_text {
     margin-top: 50px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
 }
 
-.span {
-    font-size: 24px;
-    background-color: red;
-    width: 300px;
-    height: 300px;
-    /* padding: 0 30px; */
-    /* border-top: 20px solid black; */
-    margin: 0 20px;
+.main_btn {
+    /* text */
+    margin-top: 51px;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    cursor: pointer;
+    /* btn */
+    width: 226px;
+    height: 65px;
+    background: #34547A;
+    border: none;
 }
 
-.div {
-    background-color: red;
-    padding: 0 20px;
-    /* width: 200px; */
+.work {
+    min-height: 950px;
+    background-color: #EEEFF1;
+}
+.work_title {
+    padding-top: 57px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;    
+    color: #000000;
 }
 
-.bo {
-    width: 255px;
-    padding: 0 40px;
-    border: 10px solid black;
-    background: red;
-    box-sizing: border-box; /* padding и border забирают место у контентной части */
+.work_text {
+    margin-top: 39px;
+    margin-bottom: 57px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+}
+
+.cards {
+    min-height: 985px;
+    padding-top: 141px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.list li {
+    margin: 0 30px 30px 0;
+    width: 350px;
+    float: left;
+}
+
+.list .mr-0 {
+    margin-right: 0;
+}
+
+.footer {
+    min-height: 116px;
+    background-color: #34547A;
+}
+
+.footer_copyright {
+    float: left;
+}
+.footer_copyright .name {
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.footer_copyright .copy {
+    margin-top: 8px;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.footer_icons img {
+    margin-top: 35px;
+    padding-left: 30px;
+    float: right;
 }

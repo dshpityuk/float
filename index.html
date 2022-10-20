@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,46 +8,102 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Float</title>
 </head>
-<body>
-    
-    <!-- <div class="box"></div> -->
-    <!-- <div class="box2"></div> -->
 
-<!--     <div class="box3">
-        1
-    </div>
+<body class="body">
 
-    <div class="box4">
-        2
-    </div> -->
-<!-- 
-    <div class="parent">
-        <div class="child">
-            123
+    <header class="header">
+        <div class="container clearfix">
+            <a href="#" class="logo">
+                <img src="./img/logo.png" alt="logo">
+            </a>
+            <nav class="menu">
+                <a href="#">ГОЛОВНА</a>
+                <a href="#">ПРО АВТОРА</a>
+                <a href="#">РОБОТИ</a>
+                <a href="#">ПРОЦЕС</a>
+                <a href="#">КОНТАКТИ</a>
+            </nav>
         </div>
-    </div> -->
+    </header>
 
-<!-- <span class="span">span</span>
-    <span class="span">span</span>
-    <span class="span">span</span>
-    <span class="span">span</span>
-    <span class="span">span</span>
-    <span class="span">span</span>
-    <span class="span">span</span>
-    <span class="span">span</span>
-    <span class="span">span</span>
-    <span class="span">span</span>
-    <span class="span">span</span>
-    <span class="span">span</span>
-    <span class="span">span</span>
-    <span class="span">span</span>
-    <span class="span">span</span>
-    <span class="span">span</span> -->
+    <section class="main">
+        <div class="container clearfix">
+            <div class="main_left">
+                <img src="./img/main.jpg" alt="img" class="main_img">
+            </div>
+            <div class="main_content">
+                <h1 class="main_title">Дизайн и верстка</h1>
 
+                <p class="main_text">
+                    Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-<br>дизайне. Lorem Ipsum является
+                    стандартной "рыбой" для текстов на<br> латинице с начала XVI века.
+                </p>
 
-    <div class="bo">
-        Lorem, ipsum.
-    </div>
+                <a href="#">
+                    <button class="main_btn">НАПИСАТЬ МНЕ</button>
+                </a>
+            </div>
+        </div>
+    </section>
 
+    <section class="work">
+        <div class="container">
+            <h2 class="work_title">Как я работаю</h2>
+            <p class="work_text">
+                Lorem Ipsum - это текст-"рыба", часто используемый в печати и<br> вэб-дизайне. Lorem Ipsum является
+                стандартной "рыбой" для текстов<br> на латинице с начала XVI века.
+            </p>
+
+            <img src="./img/middle_pic.jpg" alt="work_img" class="work_img">
+        </div>
+    </section>
+
+    <section class="cards">
+        <div class="container">
+            <!-- <h2 class="cards_title"></h2> -->
+
+            <ul class="list">
+                <li class="list_item">
+                    <img src="./img/item.jpg" alt="item" class="cards_img dot_card">
+                </li>
+                <li class="list_item">
+                    <img src="./img/item.jpg" alt="item" class="cards_img">
+                </li>
+                <li class="list_item mr-0">
+                    <img src="./img/item.jpg" alt="item" class="cards_img">
+                </li>
+                <li class="list_item">
+                    <img src="./img/item.jpg" alt="item" class="cards_img">
+                </li>
+                <li class="list_item">
+                    <img src="./img/item.jpg" alt="item" class="cards_img">
+                </li>
+                <li class="list_item mr-0">
+                    <img src="./img/item.jpg" alt="item" class="cards_img">
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <!--? <h2></h2> не помню нужен ли в футере заголовок, на всякий случай --> 
+            <div class="wrapper">
+                <div class="footer_copyright">
+                    <p class="name">Имя</p>
+                    <p class="copy">(с) 2018. Все права защищены.</p>
+                </div>
+                <div class="footer_icons">
+                    <a href="#">
+                        <img src="./img/twitter.svg" alt="twitter">
+                    </a>
+                    <a href="#">
+                        <img src="./img/youtube.svg" alt="youtube">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
