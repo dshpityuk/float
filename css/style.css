@@ -44,21 +44,21 @@
     text-decoration: none;
 }
 
-.main {
+.design {
     margin-top: 76px;
     margin-bottom: 146px;
 }
 
-.main_left {
+.design_left {
     float: left;
     width: 568px;
 }
 
-.main_img {
+.design_img {
     margin-top: 22px;
 }
 
-.main_title {
+.design_title {
     margin: 0;
     font-weight: 500;
     font-size: 48px;
@@ -66,14 +66,14 @@
     color: #000000;
 }
 
-.main_text {
+.design_text {
     margin-top: 50px;
     font-size: 16px;
     line-height: 26px;
     color: #727272;
 }
 
-.main_btn {
+.design_btn {
     /* text */
     margin-top: 51px;
     font-size: 16px;
